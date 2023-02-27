@@ -30,7 +30,7 @@ header {
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     row-gap: 40px;
-    padding: 60px 0 321px 0;
+    padding: 60px 80px 321px 0;
     
 }
 header h1 {
@@ -182,9 +182,17 @@ header p{
 
 footer {
     margin: 100px;
-    display: grid;
+    display: flex;
+    /* display: grid;
     justify-content: center;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 2fr 3fr 1fr; */
+}
+.footer-logo {
+    margin-right: 200px;
+}
+.footer-text {
+    display: flex;
+    margin-right: 300px;
 }
 .pppp {
     width: 366px;
