@@ -6,19 +6,21 @@
 } */
 body {
     background: #F2F2F2;
-    /* max-width: 100%; */
+    /* width: 100%; */
     /* overflow-x: hidden; */
     display: flex;
     justify-content: center;
 }
 main {
-    width: 1360px;
+    /* width: 1360px; */
     /* width: 100%; */
     position: relative;
     background-color: #FCFAF9;
     background-image: url("images/bg-main-desktop.png");
     background-repeat: no-repeat;
-    background-size: 1360px auto;
+    /* background-size: 1360px auto; */
+    /* display: flex;
+    justify-content: center; */
 }
 .patern-svg-1 {
     position: absolute;
