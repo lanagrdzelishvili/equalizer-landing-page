@@ -1,26 +1,21 @@
 * {
     font-family: 'IBM Plex Sans', sans-serif;
 }
-/* html {
-    overflow-x: hidden;
-} */
 body {
     background: #F2F2F2;
-    /* width: 100%; */
-    /* overflow-x: hidden; */
-    display: flex;
+    display: grid;
     justify-content: center;
+    
 }
 main {
-    /* width: 1360px; */
     /* width: 100%; */
+    /* max-width: 1360px; */
     position: relative;
     background-color: #FCFAF9;
     background-image: url("images/bg-main-desktop.png");
     background-repeat: no-repeat;
-    /* background-size: 1360px auto; */
-    /* display: flex;
-    justify-content: center; */
+    background-position: center;
+    background-position-y: -130px;
 }
 .patern-svg-1 {
     position: absolute;
@@ -28,12 +23,10 @@ main {
     right: 0;
 }
 header {
+    margin-bottom: 200px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    row-gap: 40px;
-    padding: 60px 80px 321px 0;
-    
+    padding: 60px 0px 0px 120px;
 }
 header h1 {
     font-style: normal;
@@ -42,25 +35,21 @@ header h1 {
     line-height: 88px;
     letter-spacing: -1px;
     color: #191826;
-    width: 1015px;
+    width: 70%;
+    padding-bottom: 30px;
 }
-header p{
+header p {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
     color: #191826;
-    width: 825px;
-}
-
-.middle {
-    display: grid;
-    justify-content: center;
+    width: 70%;
 }
 .dark-cobe {
+    margin: 0 auto;
     position: relative;
-    display: flex;
-    width: 1100px;
+    width: 81%;
     height: 600px;
     background: #191826;
     border-radius: 12px;
@@ -68,7 +57,7 @@ header p{
     padding: 0 118px;
 }
 .mobile {
-    width: 31%;
+    width: 29%;
     position: absolute;
     z-index: 1;
     top: -220px;
@@ -76,13 +65,15 @@ header p{
 }
 .patern-svg-2 {
     position: absolute;
-    top: -10px;
-    left: 350px;
+    width: 26%;
+    top: -40px;
+    left: 325px;
 }
 .orange-cobe {
     position: absolute;
-    left: 580px;
-    top: 150px;
+    left: 550px;
+    top: 100px;
+    /* width: 40.6%; */
     width: 446px;
     height: 625px;
     background: #FA7453;
@@ -90,7 +81,7 @@ header p{
 
     display: flex;
     flex-direction: column;
-    padding: 58px 59px 48px 54px;
+    padding: 58px 58px 48px 54px;
 }
 .orange-cobe-1 {
     font-style: normal;
@@ -99,7 +90,7 @@ header p{
     line-height: 52px;
     color: #FCFAF9;
     width: 333px;
-    height: 52px;
+    /* height: 52px; */
 }
 .orange-cobe-2 {
     font-style: normal;
@@ -183,18 +174,17 @@ header p{
 }
 
 footer {
-    margin: 100px;
     display: flex;
-    /* display: grid;
     justify-content: center;
-    grid-template-columns: 2fr 3fr 1fr; */
+    align-items: center;
+    margin-bottom: 100px;
 }
 .footer-logo {
     margin-right: 200px;
 }
 .footer-text {
     display: flex;
-    margin-right: 300px;
+    margin-right: 220px;
 }
 .pppp {
     width: 366px;

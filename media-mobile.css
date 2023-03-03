@@ -1,11 +1,11 @@
 @media screen and (max-width: 375px){
     main {
-        /* width: 375px; */
-        /* width: 100%; */
-        /* position: relative; */
+        position: relative;
         background-color: #FCFAF9;
         background-image: url("images/bg-main-mobile.png");
         background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: -130px;
     }
     .patern-svg-1 {
         display: none;
@@ -13,7 +13,16 @@
     header {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin: 0 0 220px 0;
+        padding-left: 150px;
+
+        /* display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 20px;
+        padding: 40px 60px 100px 80px; */
+    }
+    .header-logo-svg{
+        width: 144px;
     }
     header h1 {
         font-size: 40px;
@@ -21,25 +30,20 @@
         letter-spacing: -0.454545px;
         width: 327px;
         height: 144px;
+        padding-top: 80px;
     }
-    header p{
+    header p {
         font-size: 16px;
         line-height: 26px;
         width: 327px;
         height: 156px;
-    }
-
-    .middle {
-        display: grid;
-        justify-content: center;
-        margin-bottom: 200px;
+        padding-top: 100px;
     }
     .dark-cobe {
         width: 375px;
         height: 600px;
         position: relative;
         display: flex;
-        margin-bottom: 202px;
         padding: 0 118px;
     }
     .mobile {
@@ -76,7 +80,7 @@
         align-items: center;
     }
     footer {
-        border: 1px solid red;
+        margin-top: 360px;
         padding: 60px;
         display: flex;
         flex-direction: column;
