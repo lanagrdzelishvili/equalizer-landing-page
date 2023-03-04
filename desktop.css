@@ -1,15 +1,19 @@
 * {
     font-family: 'IBM Plex Sans', sans-serif;
 }
+html {
+    overflow-x: hidden;
+}
 body {
     background: #F2F2F2;
-    display: grid;
+    display: flex;
     justify-content: center;
     
 }
 main {
-    /* width: 100%; */
-    /* max-width: 1360px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     position: relative;
     background-color: #FCFAF9;
     background-image: url("images/bg-main-desktop.png");
@@ -73,7 +77,6 @@ header p {
     position: absolute;
     left: 550px;
     top: 100px;
-    /* width: 40.6%; */
     width: 446px;
     height: 625px;
     background: #FA7453;
@@ -90,7 +93,6 @@ header p {
     line-height: 52px;
     color: #FCFAF9;
     width: 333px;
-    /* height: 52px; */
 }
 .orange-cobe-2 {
     font-style: normal;
