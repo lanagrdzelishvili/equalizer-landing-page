@@ -1,59 +1,34 @@
-* {
-    font-family: 'IBM Plex Sans', sans-serif;
+
+html {
+    overflow-x: hidden;
 }
 body {
-    border: 1px solid #0000ff;
-    max-width: 1360px;
     background-color: #FCFAF9;
     background-image: url("images/bg-main-desktop.png");
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-position-y: -130px;
 }
-.patern-svg-1 {
-    position: absolute;
-    top: -30px;
-    right: 0px;
-    /* width: 23%; */
-}
-.header {
-    margin-bottom: 321px;
-    position: relative;
-    /* max-width: 1360px; */
-    padding: 60px 0 0 100px;
-}
-.header-logo-svg {
-    width: 146px;
-}
-.header-h1 {
+header h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 88px;
+    line-height: 88px;
     letter-spacing: -1px;
     color: #191826;
-    width: 76%;
-    padding: 120px 0 35px 0;
+    width: 70%;
 }
-.header-p {
+header p {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
     color: #191826;
-    width: 67%;
+    width: 70%;
 }
 .dark-cube {
-    margin: 0 auto;
-    position: relative;
-    max-width: 1090px;
-    height: 600px;
+    min-width: 1090px;
     background: #191826;
-    background-image: url("images/bg-pattern-2.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: 320px;
-    background-position-y: -40px;
     border-radius: 12px;
 }
 .mobile {
@@ -63,33 +38,31 @@ body {
     top: -220px;
     left: 90px;
 }
-/* .patern-svg-2 {
+.patern-svg-2 {
     position: absolute;
     width: 26%;
     top: -40px;
     left: 325px;
-} */
+}
 .orange-cube {
-    max-width: 445px;
+    left: 550px;
+    top: 100px;
+    width: 446px;
     height: 625px;
     background: #FA7453;
     border-radius: 12px;
 
-    right: 10%;
-    top: 100px;
-    position: absolute;
-    z-index: 4;
-
     display: flex;
     flex-direction: column;
-    padding: 58px 56px 47px 56px;
+    padding: 58px 58px 48px 54px;
 }
 .orange-cube-1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 37px;
+    font-size: 40px;
     line-height: 52px;
     color: #FCFAF9;
+    width: 333px;
 }
 .orange-cube-2 {
     font-style: normal;
@@ -171,16 +144,6 @@ body {
     align-items: center;
     gap: 8px;
 }
-.footer {
-    padding-bottom: 90px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-}
-.footer-text {
-    display: flex;
-    gap: 100px;
-}
 .pppp {
     width: 366px;
     height: 79px;
@@ -202,4 +165,20 @@ footer span {
 .footer-logo-facebook path:hover {
     fill: #FA7453;
     cursor: pointer;
+}
+
+
+/* media tablet */
+
+.button-1:hover {
+    cursor: auto;
+    background: #191826;
+}
+.button-2:hover {
+    cursor: auto;
+    background: #FCFAF9;
+}
+.footer-logo-facebook path:hover {
+    fill: #191826;
+    cursor: none;
 }
