@@ -28,7 +28,7 @@
 
     }
     .dark-cube {
-        max-width: 90%;
+        width: 100%;
         height: 600px;
         background-position-x: 230px;
         background-position-y: -40px;
@@ -41,7 +41,8 @@
         left: 57px;
     }
     .orange-cube {
-        width: 400px;
+        /* display: none; */
+        max-width: 400px;
         height: 546px;
         left: 34%;
         top: 150px;
