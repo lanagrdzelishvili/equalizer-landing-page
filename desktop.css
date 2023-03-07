@@ -15,7 +15,6 @@ body {
     position: absolute;
     top: -30px;
     right: 0px;
-    /* width: 25%; */
 }
 .header {
     margin-bottom: 321px;
@@ -58,7 +57,6 @@ body {
 .mobile {
     max-width: 280px;
     height: 606px;
-    /* max-width: 29%; */
     position: absolute;
     z-index: 1;
     top: -220px;
@@ -70,7 +68,6 @@ body {
     background: #FA7453;
     border-radius: 12px;
 
-    /* right: 10%; */
     left: 40%;
     top: 100px;
     position: absolute;

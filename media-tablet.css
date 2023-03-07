@@ -9,23 +9,20 @@
         width: 30%;
     }
     .header {
-        margin-bottom: 249px;
+        margin-bottom: 220px;
         padding: 60px 0 0 39px;
     }
     .header-h1 {
         font-size: 50px;
         line-height: 50px;
         letter-spacing: -0.727273px;
-        /* width: 76%; */
         max-width: 520px;
         padding: 95px 0 28px 0;
     }
     .header-p {
         font-size: 18px;
         line-height: 28px;
-        /* width: 67%; */
         max-width: 514px;
-
     }
     .dark-cube {
         width: 100%;
@@ -36,13 +33,11 @@
     .mobile {
         max-width: 270px;
         height: 556px;
-        /* max-width: 29%; */
         top: -140px;
         left: 57px;
     }
     .orange-cube {
-        /* display: none; */
-        max-width: 400px;
+        width: 70%;
         height: 546px;
         left: 34%;
         top: 150px;
@@ -96,7 +91,6 @@
         display: inline;
     }
     .pppp {
-        /* max-width: 45%; */
         max-width: 366px;
         min-height: 79px;
         font-size: 16px;
@@ -110,5 +104,44 @@
         align-items: center;
         justify-content: center;
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .orange-cube {
+        width: 100%;
+        height: 546px;
+        left: 0px;
+        top: 360px;
+        padding: 56px 10px 46px 10px;
+    }
+    .orange-cube-1 {
+        margin-bottom: 20px;
+    }
+    .orange-cube-2 {
+        padding-top: 0px;
+        width: 99%;
+        margin-bottom: 10px;
+    }
+    .orange-cube-3 {
+        gap: 10px;
+        margin-bottom: 32px;
+        padding: 0;
+    }
+    .dolar {
+        width: 79px;
+    }
+    .month {
+        width: 70px;
+    }
+    .button-1 {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .button-2 {
+        max-width: 100%;
+    }
+    .footer {
+        margin: 360px 40px 10px 40px;
     }
 }

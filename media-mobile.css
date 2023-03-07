@@ -69,22 +69,17 @@
     }
     .dolar {
         width: 79px;
-        /* min-height: 52px; */
     }
     .month {
         width: 70px;
-        /* min-height: 32px; */
     }
     .button-1 {
         max-width: 100%;
         margin-bottom: 12px;
-        /* min-height: 61px; */
     }
     .button-2 {
         max-width: 100%;
-        /* min-height: 61px; */
     }
-
     .footer {
         margin: 400px 40px 90px 40px;
         display: flex;
@@ -97,7 +92,6 @@
         display: inline;
     }
     .pppp {
-        /* max-width: 45%; */
         max-width: 327px;
         min-height: 105px;
         font-size: 16px;
@@ -111,5 +105,28 @@
         align-items: center;
         justify-content: center;
         gap: 30px;
+    }
+}
+@media screen and (max-width: 285px) {
+    .header {
+        margin-bottom: 155px;
+        padding: 39px 0 0 2px;
+    }
+    .header-h1 {
+        font-size: 27px;
+        line-height: 35px;
+        max-width: 327px;
+        min-height: 144px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .mobile {
+        max-width: 208px;
+        height: 430px;
+        top: -90px;
+        left: 0px;
+    }
+    .footer {
+        margin: 400px 0 90px 2px;
     }
 }
