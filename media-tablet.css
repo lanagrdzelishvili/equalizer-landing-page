@@ -1,3 +1,113 @@
 @media screen and (max-width: 768px) {
-    
+    body {
+        background-position: top -300px right -360px;
+    }
+    .patern-svg-1 {
+        position: absolute;
+        top: -30px;
+        right: 0px;
+        width: 30%;
+    }
+    .header {
+        margin-bottom: 249px;
+        padding: 60px 0 0 39px;
+    }
+    .header-h1 {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.727273px;
+        /* width: 76%; */
+        max-width: 520px;
+        padding: 95px 0 28px 0;
+    }
+    .header-p {
+        font-size: 18px;
+        line-height: 28px;
+        /* width: 67%; */
+        max-width: 514px;
+
+    }
+    .dark-cube {
+        max-width: 90%;
+        height: 600px;
+        background-position-x: 230px;
+        background-position-y: -40px;
+    }
+    .mobile {
+        max-width: 270px;
+        height: 556px;
+        /* max-width: 29%; */
+        top: -140px;
+        left: 57px;
+    }
+    .orange-cube {
+        width: 400px;
+        height: 546px;
+        left: 34%;
+        top: 150px;
+        padding: 46px 44px 46px 44px;
+    }
+    .orange-cube-1 {
+        width: 300px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .orange-cube-2 {
+        font-size: 18px;
+        line-height: 28px;
+        width: 300px;
+        height: 140px;
+    }
+    .orange-cube-3 {
+        gap: 15px;
+        padding: 47px 0 40px 0;
+    }
+    .button-1 {
+        width: 296px;
+        margin-bottom: 12px;
+    }
+
+    .button-2 {
+        width: 296px;
+    }
+    .button-1:hover {
+        cursor: auto;
+        background: #191826;
+    }
+    .button-2:hover {
+        cursor: auto;
+        background: #FCFAF9;
+    }
+    .footer-logo-facebook path:hover {
+        fill: #191826;
+        cursor: none;
+    }
+
+    .footer {
+        margin: 180px 40px 10px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-logo {
+        width: 145px;
+    }
+    .footer-text {
+        display: inline;
+    }
+    .pppp {
+        /* max-width: 45%; */
+        max-width: 366px;
+        min-height: 79px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 32px;
+        margin-bottom: 60px;
+    }
+    .footer-svg-container {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }

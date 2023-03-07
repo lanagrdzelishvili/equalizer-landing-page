@@ -1,9 +1,10 @@
 * {
     font-family: 'IBM Plex Sans', sans-serif;
 }
+html {
+    overflow-x: hidden;
+}
 body {
-    border: 1px solid #0000ff;
-    max-width: 1360px;
     background-color: #FCFAF9;
     background-image: url("images/bg-main-desktop.png");
     background-position: center;
@@ -14,13 +15,11 @@ body {
     position: absolute;
     top: -30px;
     right: 0px;
-    /* width: 23%; */
+    width: 27%;
 }
 .header {
     margin-bottom: 321px;
-    position: relative;
-    /* max-width: 1360px; */
-    padding: 60px 0 0 100px;
+    padding: 62px 0 0 100px;
 }
 .header-logo-svg {
     width: 146px;
@@ -46,7 +45,7 @@ body {
 .dark-cube {
     margin: 0 auto;
     position: relative;
-    max-width: 1090px;
+    max-width: 90%;
     height: 600px;
     background: #191826;
     background-image: url("images/bg-pattern-2.svg");
@@ -57,25 +56,22 @@ body {
     border-radius: 12px;
 }
 .mobile {
-    width: 29%;
+    max-width: 280px;
+    height: 606px;
+    /* max-width: 29%; */
     position: absolute;
     z-index: 1;
     top: -220px;
     left: 90px;
 }
-/* .patern-svg-2 {
-    position: absolute;
-    width: 26%;
-    top: -40px;
-    left: 325px;
-} */
 .orange-cube {
-    max-width: 445px;
+    width: 445px;
     height: 625px;
     background: #FA7453;
     border-radius: 12px;
 
-    right: 10%;
+    /* right: 10%; */
+    left: 40%;
     top: 100px;
     position: absolute;
     z-index: 4;
@@ -172,18 +168,19 @@ body {
     gap: 8px;
 }
 .footer {
-    padding-bottom: 90px;
-    margin-top: 200px;
+    margin: 200px 50px 90px 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.footer-logo {
+    max-width: 145px;
+    margin-right: 20%;
 }
 .footer-text {
     display: flex;
-    gap: 100px;
 }
 .pppp {
-    width: 366px;
-    height: 79px;
+    max-width: 500px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -195,8 +192,8 @@ footer span {
 }
 .footer-svg-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 .footer-logo-facebook path:hover {

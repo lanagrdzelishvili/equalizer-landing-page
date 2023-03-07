@@ -1,5 +1,115 @@
 @media screen and (max-width: 375px){
    .patern-svg-1 {
-    display: none;
-}
+        display: none;
+    }
+    body {
+        background-position: top -400px right -460px;
+    }
+    .header {
+        display: grid;
+        justify-content: start;
+        margin-bottom: 155px;
+        padding: 39px 0 0 24px;
+    }
+    .header-logo-svg {
+        margin-bottom: 64px;
+    }
+    .header-h1 {
+        font-size: 37px;
+        line-height: 45px;
+        letter-spacing: -0.454545px;
+        max-width: 327px;
+        min-height: 144px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .header-p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 95%;
+    }
+    .dark-cube {
+        max-width: 100%;
+        height: 600px;
+        background-position-x: 30px;
+        background-position-y: -10px;
+    }
+    .mobile {
+        max-width: 208px;
+        height: 430px;
+        top: -90px;
+        left: 22%;
+    }
+    .orange-cube {
+        width: 100%;
+        min-height: 546px;
+        left: 0%;
+        top: 410px;
+        padding: 46px 32px 40px 30px;
+    }
+    .orange-cube-1 {
+        width: 99%;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 12px;
+    }
+    .orange-cube-2 {
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 0px;
+        width: 99%;
+        min-height: 140px;
+        margin-bottom: 36px;
+    }
+    .orange-cube-3 {
+        gap: 10px;
+        margin-bottom: 32px;
+        padding: 0;
+    }
+    .dolar {
+        width: 79px;
+        /* min-height: 52px; */
+    }
+    .month {
+        width: 70px;
+        /* min-height: 32px; */
+    }
+    .button-1 {
+        max-width: 100%;
+        margin-bottom: 12px;
+        /* min-height: 61px; */
+    }
+    .button-2 {
+        max-width: 100%;
+        /* min-height: 61px; */
+    }
+
+    .footer {
+        margin: 400px 40px 90px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo {
+        width: 145px;
+    }
+    .footer-text {
+        display: inline;
+    }
+    .pppp {
+        /* max-width: 45%; */
+        max-width: 327px;
+        min-height: 105px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+    .footer-svg-container {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }
